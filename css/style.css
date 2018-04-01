@@ -61,19 +61,21 @@ header button{
 	justify-content: center;
 }
 .main_text{
-	margin-top: -350px;
+	margin-top: -250px;
 	text-align: center;
 }
 .main_text h1{
 	font-family: "RobotoThin";
 	font-size: 3.5rem;
+	margin: 0;
 }
 .main_text h2{
+	margin: 0;
 	color: #8492af;
 	font-size: 2rem;
 }
 .main_text button{
-	margin-top: 60px;
+	margin-top: 30px;
 	font-size: 1rem;
 	color: #fff;
 	padding: 15px 60px;
@@ -83,14 +85,41 @@ header button{
 	cursor: pointer;
 }
 .merkury_img{
-	margin-top: -400px;
+	margin-top: -490px;
 	position: absolute;
 	display: flex;
 	justify-content: center;
 	width: 100vw;
 }
-.merkury_img img{
-	
+.pass{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 850px;
+}
+.pas_page{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+.pas1{
+	background: url('../img/pass/pas1.svg') center no-repeat;
+	width: 80px;
+	height: 76px;
+	background-size: cover;
+}
+.pas2{
+	background: url('../img/pass/pas2.svg') center no-repeat;
+	width: 94px;
+	height: 90px;
+	background-size: cover;
+}
+.pas3{
+	background: url('../img/pass/pas3.svg') center no-repeat;
+	width: 94px;
+	height: 94px;
+	background-size: cover;
 }
 
 
