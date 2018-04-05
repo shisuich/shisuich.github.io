@@ -1,0 +1,49 @@
+@media (max-width: 100em){
+	
+}
+@media (max-width: 90em){
+	
+}
+@media (max-width: 85em){
+	
+}
+@media (max-width: 80em){
+	
+}
+@media (max-width: 64em){
+	
+}
+@media (max-width: 48em){
+	
+}
+@media (max-width: 45em){
+	html{
+		font-size: 70%;
+	}
+	header{
+		justify-content: flex-end;
+	}
+	header h3{
+		display: none;
+	}
+	.wrap_nav{
+		justify-content: flex-end;
+	}
+	.menu{
+		display: none;
+	}
+	.menu__icon{
+		display: inline-block;
+	}
+}
+@media (max-width: 30em){
+	html{
+		font-size: 50%;
+	}
+}
+@media (max-width: 23em){
+	
+}
+@media (max-width: 20em){
+	
+}
