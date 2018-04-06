@@ -14,211 +14,210 @@
 	<!-- Header CSS (First Sections of Website: compress & paste after release from _header.css here) -->
 <style>
 		html{
-		font-size: 100% !important;
+		font-size: 100%;
 		}
 		ul,li,a{
-			text-decoration: none !important;
-			list-style: none !important;
-			color: #fff !important;
-			margin: 0 !important;
-			padding: 0 !important;
+			text-decoration: none;
+			list-style: none;
+			color: #fff;
+			margin: 0;
+			padding: 0;
 		}
 		header{
-			width: 100% !important;
-			height: 110px !important;
-			position: absolute !important;
-			display: flex !important;
-			justify-content: space-around !important;
-			align-items: center !important;
+			width: 100%;
+			height: 110px;
+			position: absolute;
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
 		}
 		header h3{
-			font-family: "HelveticaNeue-Bold" !important;
-			font-size: 1.25rem !important;
-			color: #69e44d !important;
+			font-family: "HelveticaNeue-Bold";
+			font-size: 1.25rem;
+			color: #69e44d;
 		}
 		.wrap_nav{
-			width: 380px !important;
-			height: 100% !important;
-			display: flex !important;
-			flex-direction: row !important;
-			justify-content: space-between !important;
-			align-items: center !important; 
+			width: 380px;
+			height: 100%;
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			align-items: center;
 		}
 
 		/* Иконка адаптивного меню НАЧАЛО */
 
 		.menu__icon {
-		    display: none !important;
-		    width: 45px !important;
-		    height: 35px !important;
-		    position: relative !important;
-		    cursor: pointer !important;
-		    z-index: 2 !important;
-		    margin-right: 40px !important;
+		    display: none;
+		    width: 45px;
+		    height: 35px;
+		    position: relative;
+		    cursor: pointer;
+		    z-index: 2;
+		    margin-right: 40px;
 		}
 
 		.menu__icon span {
-		    display: block !important;
-		    position: absolute !important;
-		    height: 9px !important; 
-		    width: 100% !important;
-		    background: #fff !important;
-		    border-radius: 9px !important;
-		    opacity: 1 !important;
-		    left: 0 !important;
-		    transform: rotate(0deg) !important;
-		    transition: .25s ease-in-out !important;
+		    display: block;
+		    position: absolute;
+		    height: 9px;
+		    width: 100%;
+		    background: #fff;
+		    border-radius: 9px;
+		    opacity: 1;
+		    left: 0;
+		    transform: rotate(0deg);
+		    transition: .25s ease-in-out;
 		}
 
 		.menu__icon span:nth-child(1) {
-		    top: 0px !important;
+		    top: 0px;
 		}
 
 		.menu__icon span:nth-child(2), .menu__icon span:nth-child(3) {
-		    top: 13px !important;
+		    top: 13px;
 		}
 
 		.menu__icon span:nth-child(4) {
-		    top: 26px !important;
+		    top: 26px;
 		}
 		.menu_state_open span:nth-child(1) {
-		    top: 18px !important;
-		    width: 0% !important;
-		    left: 50% !important;
+		    top: 18px;
+		    width: 0%;
+		    left: 50%;
 		}
 		.menu_state_open span:nth-child(2) {
-		    transform: rotate(45deg) !important;
+		    transform: rotate(45deg);
 		}
 		.menu_state_open span:nth-child(3) {
-		    transform: rotate(-45deg) !important;
+		    transform: rotate(-45deg);
 		}
 		.menu_state_open span:nth-child(4) {
-		    top: 18px !important;
-		    width: 0% !important;
-		    left: 50% !important;
+		    top: 18px;
+		    width: 0%;
+		    left: 50%;
 		}
 
 		/* Иконка адаптивного меню КОНЕЦ*/
 
 		.menu_mobile{
-			display: none !important;
+			display: none;
 		}
 		.menu_open{
-			position: absolute !important;
-			display: block !important;
-			width: 100vw !important;
-			height: 100vh !important;
-			background-color: #000 !important;
-			top: 0 !important;
-			left: 0 !important;
-			z-index: 1 !important;
-			display: flex !important;
-			justify-content: center !important;
-			align-items: center !important;
+			position: absolute;
+			display: block;
+			width: 100vw;
+			height: 100vh;
+			background-color: #000;
+			top: 0;
+			left: 0;
+			z-index: 1;
+			display: flex;
+			justify-content: center;
+			align-items: center;
 		}
 		.wrap_menu_mobile{
-			height: 34vh !important;
-			display: flex !important;
-			text-align: center !important;
-			flex-direction: column !important;
-			justify-content: space-between !important;
-			align-items: center !important;
+			height: 34vh;
+			display: flex;
+			text-align: center;
+			flex-direction: column;
+			justify-content: space-between;
+			align-items: center;
 		}
 		.wrap_menu_mobile li{
-			font-family: "Helvetica" !important;
-			margin: 1.25em 0 !important;
-			font-size: 2rem !important;
+			font-family: "Helvetica";
+			margin: 1.25em 0;
+			font-size: 2rem;
 		}
 		.wrap_menu_mobile li:last-child{
 			text-transform: uppercase;
-			font-size: 1.5rem !important;
+			font-size: 1.5rem;
 		}
 		.wrap_menu_mobile button{
-			color: #fff !important;
-			font-family: "Helvetica" !important;
-			text-transform: uppercase !important;
-			font-size: 1.5rem !important;
-			background-color: transparent !important;
-			border: 1px solid #fff !important;
-			padding: 0.7em 1.43em !important;
-			border-radius: 0.5em !important;
-			cursor: pointer !important;
+			color: #fff;
+			font-family: "Helvetica";
+			text-transform: uppercase;
+			font-size: 1.5rem;
+			background-color: transparent;
+			border: 1px solid #fff;
+			padding: 0.7em 1.43em;
+			border-radius: 0.5em;
+			cursor: pointer;
 		}
 		.menu{
-			width: 100% !important;
-			height: 100% !important;
-			display: flex !important;
-			justify-content: space-between !important;
-			align-items: center !important;
+			width: 100%;
+			height: 100%;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
 		}
 
 		.menu ul{
-			width: 240px !important;
-			display: flex !important;
-			justify-content: space-between !important;
-			align-items: center !important;
+			width: 240px;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
 		}
 		.menu a{
-			font-family: "Helvetica" !important;
-			font-size: 1rem !important;
+			font-family: "Helvetica";
+			font-size: 1rem;
 		}
 		.menu li:last-child a{
-			text-transform: uppercase !important;
-			font-size: 0.875rem !important;
+			text-transform: uppercase;
+			font-size: 0.875rem;
 		}
 
 		.menu button{
-			color: #fff !important;
-			font-family: "Helvetica" !important;
-			text-transform: uppercase !important;
-			font-size: 0.875rem !important;
-			background-color: transparent !important;
-			border: 1px solid #fff !important;
-			padding: 0.7em 1.43em !important;
-			border-radius: 0.5em !important;
-			cursor: pointer !important;
+			color: #fff;
+			font-family: "Helvetica";
+			text-transform: uppercase;
+			font-size: 0.875rem;
+			background-color: transparent;
+			border: 1px solid #fff;
+			padding: 0.7em 1.43em;
+			border-radius: 0.5em;
+			cursor: pointer;
 		}
 
 		.menu button:hover{
-			color: #fff !important;
-			background-color: #22b737 !important;
-			border-color: #22b737 !important;
+			color: #fff;
+			background-color: #22b737;
+			border-color: #22b737;
 		}
 
 		.main_screen{
-			color: #fff !important;
-			width: 100vw !important;
-			height: 100vh !important;
-			background-color: #121212 !important;
-			display: flex !important;
-			flex-direction: column !important;
-			justify-content: center !important;
-			align-items: center !important;
+			color: #fff;
+			width: 100vw;
+			height: 100vh;
+			background-color: #121212;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
 		}
 		.main_text h2{
-			font-family: "Helvetica" !important;
-			margin: 0 0 0.6em 0 !important;
-			font-size: 1.875rem !important;
+			font-family: "Helvetica";
+			margin: 0 0 0.6em 0;
+			font-size: 1.875rem;
 		}
 		.main_text h1{
-			font-family: "HelveticaBold" !important;
-			margin: 0 0 0.4em 0 !important;
-			font-size: 5.625rem !important;
+			font-family: "HelveticaBold";
+			margin: 0 0 0.4em 0;
+			font-size: 5.625rem;
 		}
 		.main_text button{
-			padding: 1.2em 3em !important;
-			border-radius: 0.38em !important;
-			font-size: 1.125rem !important;
-			background-color: #22b737 !important;
-			border: none !important;
-			color: #fff !important;
-			font-family: "Helvetica" !important;
-			cursor: pointer !important;
+			padding: 1.2em 3em;
+			border-radius: 0.38em;
+			font-size: 1.125rem;
+			background-color: #22b737;
+			border: none;
+			color: #fff;
+			font-family: "Helvetica";
+			cursor: pointer;
 		}
 </style>
 
-	<!-- Fonts Loader from _fonts.css (HTML5 LocalStorage) -->
-	<script>!function(){function e(e,t,n){e.addEventListener?e.addEventListener(t,n,!1):e.attachEvent&&e.attachEvent("on"+t,n)}function t(e){return window.localStorage&&localStorage.font_css_cache&&localStorage.font_css_cache_file===e}function n(){if(window.localStorage&&window.XMLHttpRequest)if(t(o))a(localStorage.font_css_cache);else{var n=new XMLHttpRequest;n.open("GET",o,!0),e(n,"load",function(){4===n.readyState&&(a(n.responseText),localStorage.font_css_cache=n.responseText,localStorage.font_css_cache_file=o)}),n.send()}else{var c=document.createElement("link");c.href=o,c.rel="stylesheet",c.type="text/css",document.getElementsByTagName("head")[0].appendChild(c),document.cookie="font_css_cache"}}function a(e){var t=document.createElement("style");t.innerHTML=e,document.getElementsByTagName("head")[0].appendChild(t)}var o="_fonts.css";window.localStorage&&localStorage.font_css_cache||document.cookie.indexOf("font_css_cache")>-1?n():e(window,"load",n)}();</script>
+	
 	
 	<!-- Load CSS Compilled without JS -->
 	<noscript><link rel="stylesheet" href="compiled.min.css"></noscript>
