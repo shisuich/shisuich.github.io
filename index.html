@@ -14,210 +14,207 @@
 	<!-- Header CSS (First Sections of Website: compress & paste after release from _header.css here) -->
 	<style>
 		html{
-	font-size: 100%;
-}
-ul,li,a{
-	text-decoration: none;
-	list-style: none;
-	color: #fff;
-	margin: 0;
-	padding: 0;
-}
-header{
-	width: 100%;
-	height: 110px;
-	position: absolute;
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-}
-header h3{
-	font-family: "HelveticaNeue-Bold";
-	font-size: 1.25rem;
-	color: #69e44d;
-}
-.wrap_nav{
-	width: 380px;
-	height: 100%;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	align-items: center;
-}
+		font-size: 100%;
+		}
+		ul,li,a{
+			text-decoration: none;
+			list-style: none;
+			color: #fff;
+			margin: 0;
+			padding: 0;
+		}
+		header{
+			width: 100%;
+			height: 110px;
+			position: absolute;
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+		}
+		header h3{
+			font-family: "HelveticaNeue-Bold";
+			font-size: 1.25rem;
+			color: #69e44d;
+		}
+		.wrap_nav{
+			width: 380px;
+			height: 100%;
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			align-items: center;
+		}
 
-/* Иконка адаптивного меню НАЧАЛО */
+		/* Иконка адаптивного меню НАЧАЛО */
 
-.menu__icon {
-    display: none;
-    width: 45px;
-    height: 35px;
-    position: relative;
-    cursor: pointer;
-    z-index: 2;
-    margin-right: 40px;
-}
+		.menu__icon {
+		    display: none;
+		    width: 45px;
+		    height: 35px;
+		    position: relative;
+		    cursor: pointer;
+		    z-index: 2;
+		    margin-right: 40px;
+		}
 
-.menu__icon span {
-    display: block;
-    position: absolute;
-    height: 9px;
-    width: 100%;
-    background: #fff;
-    border-radius: 9px;
-    opacity: 1;
-    left: 0;
-    transform: rotate(0deg);
-    transition: .25s ease-in-out;
-}
+		.menu__icon span {
+		    display: block;
+		    position: absolute;
+		    height: 9px;
+		    width: 100%;
+		    background: #fff;
+		    border-radius: 9px;
+		    opacity: 1;
+		    left: 0;
+		    transform: rotate(0deg);
+		    transition: .25s ease-in-out;
+		}
 
-.menu__icon span:nth-child(1) {
-    top: 0px;
-}
+		.menu__icon span:nth-child(1) {
+		    top: 0px;
+		}
 
-.menu__icon span:nth-child(2), .menu__icon span:nth-child(3) {
-    top: 13px;
-}
+		.menu__icon span:nth-child(2), .menu__icon span:nth-child(3) {
+		    top: 13px;
+		}
 
-.menu__icon span:nth-child(4) {
-    top: 26px;
-}
-.menu_state_open span:nth-child(1) {
-    top: 18px;
-    width: 0%;
-    left: 50%;
-}
-.menu_state_open span:nth-child(2) {
-    transform: rotate(45deg);
-}
-.menu_state_open span:nth-child(3) {
-    transform: rotate(-45deg);
-}
-.menu_state_open span:nth-child(4) {
-    top: 18px;
-    width: 0%;
-    left: 50%;
-}
+		.menu__icon span:nth-child(4) {
+		    top: 26px;
+		}
+		.menu_state_open span:nth-child(1) {
+		    top: 18px;
+		    width: 0%;
+		    left: 50%;
+		}
+		.menu_state_open span:nth-child(2) {
+		    transform: rotate(45deg);
+		}
+		.menu_state_open span:nth-child(3) {
+		    transform: rotate(-45deg);
+		}
+		.menu_state_open span:nth-child(4) {
+		    top: 18px;
+		    width: 0%;
+		    left: 50%;
+		}
 
-/* Иконка адаптивного меню КОНЕЦ*/
+		/* Иконка адаптивного меню КОНЕЦ*/
 
-.menu_mobile{
-	display: none;
-}
-.menu_open{
-	position: absolute;
-	display: block;
-	width: 100vw;
-	height: 100vh;
-	background-color: #000;
-	top: 0;
-	left: 0;
-	z-index: 1;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-.wrap_menu_mobile{
-	height: 34vh;
-	display: flex;
-	text-align: center;
-	flex-direction: column;
-	justify-content: space-between;
-	align-items: center;
-}
-.wrap_menu_mobile li{
-	font-family: "Helvetica";
-	margin: 1.25em 0;
-	font-size: 2rem;
-}
-.wrap_menu_mobile li:last-child{
-	text-transform: uppercase;
-	font-size: 1.5rem;
-}
-.wrap_menu_mobile button{
-	color: #fff;
-	font-family: "Helvetica";
-	text-transform: uppercase;
-	font-size: 1.5rem;
-	background-color: transparent;
-	border: 1px solid #fff;
-	padding: 0.7em 1.43em;
-	border-radius: 0.5em;
-	cursor: pointer;
-}
-.menu{
-	width: 100%;
-	height: 100%;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
+		.menu_mobile{
+			display: none;
+		}
+		.menu_open{
+			position: absolute;
+			display: block;
+			width: 100vw;
+			height: 100vh;
+			background-color: #000;
+			top: 0;
+			left: 0;
+			z-index: 1;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		.wrap_menu_mobile{
+			height: 34vh;
+			display: flex;
+			text-align: center;
+			flex-direction: column;
+			justify-content: space-between;
+			align-items: center;
+		}
+		.wrap_menu_mobile li{
+			font-family: "Helvetica";
+			margin: 1.25em 0;
+			font-size: 2rem;
+		}
+		.wrap_menu_mobile li:last-child{
+			text-transform: uppercase;
+			font-size: 1.5rem;
+		}
+		.wrap_menu_mobile button{
+			color: #fff;
+			font-family: "Helvetica";
+			text-transform: uppercase;
+			font-size: 1.5rem;
+			background-color: transparent;
+			border: 1px solid #fff;
+			padding: 0.7em 1.43em;
+			border-radius: 0.5em;
+			cursor: pointer;
+		}
+		.menu{
+			width: 100%;
+			height: 100%;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
 
-.menu ul{
-	width: 240px;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
-.menu a{
-	font-family: "Helvetica";
-	font-size: 1rem;
-}
-.menu li:last-child a{
-	text-transform: uppercase;
-	font-size: 0.875rem;
-}
+		.menu ul{
+			width: 240px;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+		.menu a{
+			font-family: "Helvetica";
+			font-size: 1rem;
+		}
+		.menu li:last-child a{
+			text-transform: uppercase;
+			font-size: 0.875rem;
+		}
 
-.menu button{
-	color: #fff;
-	font-family: "Helvetica";
-	text-transform: uppercase;
-	font-size: 0.875rem;
-	background-color: transparent;
-	border: 1px solid #fff;
-	padding: 0.7em 1.43em;
-	border-radius: 0.5em;
-	cursor: pointer;
-}
+		.menu button{
+			color: #fff;
+			font-family: "Helvetica";
+			text-transform: uppercase;
+			font-size: 0.875rem;
+			background-color: transparent;
+			border: 1px solid #fff;
+			padding: 0.7em 1.43em;
+			border-radius: 0.5em;
+			cursor: pointer;
+		}
 
-.menu button:hover{
-	color: #fff;
-	background-color: #22b737;
-	border-color: #22b737;
-}
+		.menu button:hover{
+			color: #fff;
+			background-color: #22b737;
+			border-color: #22b737;
+		}
 
-.main_screen{
-	color: #fff;
-	width: 100vw;
-	height: 100vh;
-	background-color: #121212;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-}
-.main_text h2{
-	font-family: "Helvetica";
-	margin: 0 0 0.6em 0;
-	font-size: 1.875rem;
-}
-.main_text h1{
-	font-family: "HelveticaBold";
-	margin: 0 0 0.4em 0;
-	font-size: 5.625rem;
-}
-.main_text button{
-	padding: 1.2em 3em;
-	border-radius: 0.38em;
-	font-size: 1.125rem;
-	background-color: #22b737;
-	border: none;
-	color: #fff;
-	font-family: "Helvetica";
-	cursor: pointer;
-}
-
-
-	</style>
+		.main_screen{
+			color: #fff;
+			width: 100vw;
+			height: 100vh;
+			background-color: #121212;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+		}
+		.main_text h2{
+			font-family: "Helvetica";
+			margin: 0 0 0.6em 0;
+			font-size: 1.875rem;
+		}
+		.main_text h1{
+			font-family: "HelveticaBold";
+			margin: 0 0 0.4em 0;
+			font-size: 5.625rem;
+		}
+		.main_text button{
+			padding: 1.2em 3em;
+			border-radius: 0.38em;
+			font-size: 1.125rem;
+			background-color: #22b737;
+			border: none;
+			color: #fff;
+			font-family: "Helvetica";
+			cursor: pointer;
+		}</style>
 
 	<!-- Fonts Loader from _fonts.css (HTML5 LocalStorage) -->
 	<script>!function(){function e(e,t,n){e.addEventListener?e.addEventListener(t,n,!1):e.attachEvent&&e.attachEvent("on"+t,n)}function t(e){return window.localStorage&&localStorage.font_css_cache&&localStorage.font_css_cache_file===e}function n(){if(window.localStorage&&window.XMLHttpRequest)if(t(o))a(localStorage.font_css_cache);else{var n=new XMLHttpRequest;n.open("GET",o,!0),e(n,"load",function(){4===n.readyState&&(a(n.responseText),localStorage.font_css_cache=n.responseText,localStorage.font_css_cache_file=o)}),n.send()}else{var c=document.createElement("link");c.href=o,c.rel="stylesheet",c.type="text/css",document.getElementsByTagName("head")[0].appendChild(c),document.cookie="font_css_cache"}}function a(e){var t=document.createElement("style");t.innerHTML=e,document.getElementsByTagName("head")[0].appendChild(t)}var o="_fonts.css";window.localStorage&&localStorage.font_css_cache||document.cookie.indexOf("font_css_cache")>-1?n():e(window,"load",n)}();</script>
@@ -284,6 +281,12 @@ header h3{
 
 	<div class="hidden"></div>
 
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+	<![endif]-->
 
 	<!-- Load CSS -->
 	<script>
