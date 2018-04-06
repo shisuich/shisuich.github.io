@@ -1,5 +1,6 @@
 $(function() {
 
+	
 	$(function() {
     $('.menu__icon').on('click', function() {
       $('.menu__icon').toggleClass('menu_state_open');
