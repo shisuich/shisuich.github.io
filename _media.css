@@ -1,76 +1,74 @@
-/*==========  Desktop First Method  ==========*/
-
-/* Large Devices, Wide Screens */
-@media only screen and (max-width : 1200px) {
-
-}
-
-/* Medium Devices, Desktops */
-@media only screen and (max-width : 992px) {
-
-}
-
-/* Small Devices, Tablets */
-@media only screen and (max-width : 768px) {
+@media (max-width: 100em){
 	
-	/*Disable Animation on Mobile Devices*/
-	.animated {
-		/*CSS transitions*/
-		-o-transition-property: none !important;
-		-moz-transition-property: none !important;
-		-ms-transition-property: none !important;
-		-webkit-transition-property: none !important;
-		transition-property: none !important;
-		/*CSS transforms*/
-		-o-transform: none !important;
-		-moz-transform: none !important;
-		-ms-transform: none !important;
-		-webkit-transform: none !important;
-		transform: none !important;
-		/*CSS animations*/
-		-webkit-animation: none !important;
-		-moz-animation: none !important;
-		-o-animation: none !important;
-		-ms-animation: none !important;
-		animation: none !important;
+}
+@media (max-width: 90em){
+	
+}
+@media (max-width: 85em){
+	
+}
+@media (max-width: 80em){
+	
+}
+@media (max-width: 64em){
+	
+}
+@media (max-width: 48em){
+	
+}
+@media (max-width: 45em){
+	html{
+		font-size: 70%;
 	}
-
+	header{
+		justify-content: flex-end;
+	}
+	header h3{
+		display: none;
+	}
+	.wrap_nav{
+		justify-content: flex-end;
+	}
+	.menu{
+		display: none;
+	}
+	.menu__icon{
+		display: inline-block;
+	}
+	.wrap_menu_mobile{
+		height: 20.6em;
+	}
 }
-
-/* Extra Small Devices, Phones */
-@media only screen and (max-width : 480px) {
-
+@media (max-width: 30em){
+	html{
+		font-size: 50%;
+	}
+	.main_text button{
+		font-size: 1.8rem;
+	}
+	.wrap_menu_mobile{
+		height: 20em;
+	}
 }
-
-/* Custom, iPhone Retina */
-@media only screen and (max-width : 320px) {
-
+@media (max-width: 23.4375em){
+	.main_text button{
+		font-size: 1.8rem;
+	}
+	.wrap_menu_mobile{
+		height: 160px;
+	}
 }
-
-
-/*==========  Mobile First Method  ==========*/
-
-/* Custom, iPhone Retina */
-@media only screen and (min-width : 320px) {
-
-}
-
-/* Extra Small Devices, Phones */
-@media only screen and (min-width : 480px) {
-
-}
-
-/* Small Devices, Tablets */
-@media only screen and (min-width : 768px) {
-
-}
-
-/* Medium Devices, Desktops */
-@media only screen and (min-width : 992px) {
-
-}
-
-/* Large Devices, Wide Screens */
-@media only screen and (min-width : 1200px) {
-
+@media (max-width: 20em){
+	html{
+		font-size: 40%;
+	}
+	.main_text h2{
+		font-size: 2rem;
+	}
+	.main_text button{
+		font-size: 2rem;
+	}
+	.wrap_menu_mobile{
+		height: 23.4em;
+	}
 }
